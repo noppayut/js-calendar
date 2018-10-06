@@ -1,0 +1,27 @@
+.prev:hover {
+  color: green;
+}
+
+.next:hover {
+  color: green;
+}
+
+td[class^='date'] {
+  text-align:center;  
+  width: auto;
+  height: auto;
+}
+
+th[class^='month']{
+  text-align:center; 
+}
+
+td[class*='date-clicked']{
+  background-color: rgb(255, 255, 179);
+}
+
+[class^='mew-calendar']{
+	text-align:center; 
+	width: 200px;
+	padding-left: 100px;
+}
